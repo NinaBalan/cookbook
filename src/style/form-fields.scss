@@ -1,5 +1,6 @@
 .form-input {
     display: grid;
+    
     grid-gap: 6.5px;
 
     & > * {
@@ -24,6 +25,7 @@
     &__button {
         height: 38px;
         width: 243px;
+
         border-radius: 20px;
         background-color: #a16fb4;
 
