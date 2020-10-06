@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
 
-//import AccountInformation from './accouuntInformation';
+//import AccountInformation from './accouuntInformation';//sch
 import PurchaseHistory from './purchaseHistory';
 
 class Account extends Component {
@@ -27,12 +28,12 @@ class Account extends Component {
                 active: true,
                 component: <PurchaseHistory/>
             },
-           /* {
+           {
                 _id: 1,
                 title: 'Account Information',
                 active: false,
                 component: <AccountInformation/>
-            } */
+            } 
         ]
         
         this.props.setHeaderLinks(headerLinks);  
@@ -40,6 +41,7 @@ class Account extends Component {
     }
 
     renderContent() {
+
         let jsx;
         if(this.props.navbarLinks) {
             this.props.navbarLinks.forEach(link => {
