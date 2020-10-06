@@ -14,17 +14,18 @@ class Cbook extends Component {
             }
         ]
         this.props.setHeaderLinks(headerLinks);
-        // fetch shop products action creator
+      
         // fetch navbar links
             // set navbar links
-            // filter products with links
+            
     }
     render() {
         return (
             <div className='cbook'>
-                {/* shop search bar */}
-                {/* shop product */}
-                {/* shop cart button */}
+                {/* search bar recipes */}
+                {/* recipes */}
+                {/* add new recipes */}
+                
             </div>
         )
     }

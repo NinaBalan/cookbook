@@ -15,7 +15,7 @@ import Layout from './components/layout';
 import Signin from './components/auth/signin';
 import Signup from './components/auth/signup';
 import Account from './components/account/account';
-//import Cbook from './components/cbook/cbook';
+import Cbook from './components/cbook/cbook';
 
 function main() {
   ReactDOM.render(
