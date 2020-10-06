@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
 
-import AccountInformation from './accountInformation';
+//import AccountInformation from './accouuntInformation';
 import PurchaseHistory from './purchaseHistory';
 
 class Account extends Component {
@@ -27,12 +27,12 @@ class Account extends Component {
                 active: true,
                 component: <PurchaseHistory/>
             },
-            {
+           /* {
                 _id: 1,
                 title: 'Account Information',
                 active: false,
                 component: <AccountInformation/>
-            }
+            } */
         ]
         
         this.props.setHeaderLinks(headerLinks);  
@@ -50,13 +50,13 @@ class Account extends Component {
     }
     return jsx;
 }
-render() {
-    return (
-        <div className='account'>
-            {this.renderContent()}
-        </div>
-    )
-}
+    render() {
+        return (
+            <div className='account'>
+                {this.renderContent()}
+            </div>
+        )
+    }
 }
 
 function mapStateToProps(state) {
