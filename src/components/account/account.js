@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
 
-//import AccountInformation from './accouuntInformation';//sch
+
 import PurchaseHistory from './purchaseHistory';
 
 class Account extends Component {
@@ -54,7 +54,7 @@ class Account extends Component {
 }
     render() {
         return (
-            <div className='account'>
+            <div>
                 {this.renderContent()}
             </div>
         )
