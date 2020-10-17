@@ -18,9 +18,9 @@ export class FormButton extends Component {
         return (
             <div className={`${className} form-button`}>
                 <button className={`form-button__button`}
-                        type={type}
-                        {...input}
-                        onClick={onClick}
+                    type={type}
+                    {...input}
+                    onClick={onClick}
                 >
                 {title}
                 </button>
